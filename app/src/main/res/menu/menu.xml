@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+    <item android:id="@+id/action_configuracoes"
+        android:title="@string/action_configuracoes"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_sair"
+        android:orderInCategory="200"
+        android:title="@string/residuos_especiais"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_compartilhar"
+        android:title="Menu"
+        android:orderInCategory="300"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/calendario_id"
+        android:orderInCategory="201"
+        android:title="@string/calendario_coleta" />
+    <item
+        android:id="@+id/seletiva_id"
+        android:orderInCategory="202"
+        android:title="@string/seletiva" />
+    <item
+        android:id="@+id/rota_id"
+        android:orderInCategory="203"
+        android:title="@string/rota" />
+    <item
+        android:id="@+id/deslogar_id"
+        android:orderInCategory="204"
+        android:title="@string/deslogar" />
+
+</menu>

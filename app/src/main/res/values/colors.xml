@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0c2bf0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fundo">#605F5F</color>
+    <color name="sign_in">#ff6517</color>
+    <color name="facebook">#4f71ba</color>
+    <color name="bg_fundo">#424242</color>
+    <color name="calendario">#fdd835</color>
+</resources>

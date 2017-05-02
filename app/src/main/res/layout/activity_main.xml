@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context="br.com.passalixo.projetoandroid.passalixo.MainActivity"
+    tools:ignore="GradleDependency">
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:background="@drawable/fundo_caixa"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/email"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <EditText
+        android:id="@+id/senha_id"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:background="@drawable/fundo_caixa"
+        android:ems="10"
+        android:hint="@string/senha_hint"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/botao_id"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button"
+        android:text="@string/logar"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="272dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/botao_fb_id"
+        android:layout_width="230dp"
+        android:layout_height="48dp"
+        android:background="@drawable/botao_facebook"
+        android:contentDescription=""
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/recupera_senha_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/esq_senha"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <TextView
+        android:id="@+id/registrar_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registro"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <ImageButton
+        android:id="@+id/google_id"
+        android:layout_width="230dp"
+        android:layout_height="48dp"
+        android:background="@drawable/login_google"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="391dp"
+        android:layout_height="180dp"
+        android:background="@drawable/coleta"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="100dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

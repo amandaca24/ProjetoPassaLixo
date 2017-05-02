@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PassaLixo</string>
+
+    <string name="action_configuracoes">Configurações</string>
+    <string name="action_sair">Sair</string>
+    <string name="action_compartilhar">Compartilhar</string>
+    <string name="noticias">Notícias</string>
+    <string name="servico">Solicite Servico de Coleta</string>
+    <string name="caixa_texto">Descreva a sua solicitacão de coleta</string>
+    <string name="endereco">Digite o Endereco</string>
+    <string name="botao_enviar">Enviar</string>
+    <string name="residuos_especiais">Resíduos Especiais</string>
+    <string name="calendario_coleta">Calendário de Coleta</string>
+    <string name="seletiva">Coleta Seletiva</string>
+    <string name="rota">Acompanhar Rota</string>
+    <string name="deslogar">Sair</string>
+    <string name="email">E-mail</string>
+    <string name="logar">Entrar</string>
+    <string name="senha_hint">Digite a sua senha</string>
+    <string name="esq_senha">Esqueceu sua senha?</string>
+    <string name="registro">Novo? Registre aqui</string>
+</resources>
